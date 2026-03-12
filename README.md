@@ -4,11 +4,13 @@ This project evaluates spoken English communication using Natural Language Proce
 
 The system evaluates five key dimensions:
 
-1. Grammatical Accuracy
-2. Fluency
-3. Pronunciation
-4. Vocabulary Richness
-5. Coherence and Cohesion
+1. Grammar evaluation using spaCy
+2. Fluency analysis using speech rate
+3. Pronunciation analysis using phoneme dictionary
+4. Vocabulary richness scoring
+5. Coherence and cohesion detection
+6. Speech transcription using Whisper
+
 
 ## Input Data
 
