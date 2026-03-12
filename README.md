@@ -11,10 +11,19 @@ The system evaluates five key dimensions:
 5. Coherence and cohesion detection
 6. Speech transcription using Whisper
 
-
 ## Input Data
 
 The system takes two inputs:
 
 1. Audio recording of speech
 2. Transcript generated using Whisper
+
+## Installation
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Download spaCy language model:
+
+python -m spacy download en_core_web_lg
