@@ -16,7 +16,7 @@ def transcribe_with_whisper(mp3_path):
     result = model.transcribe(wav_path)
     return result["text"]
 
-audio_file = "/content/X6mHBDi0.mp3"
+audio_file = "your_text_file"
 wav_path = convert_mp3_to_wav(audio_file)
 transcript = transcribe_with_whisper(audio_file)
 print(f"Transcript: {transcript}\n")
